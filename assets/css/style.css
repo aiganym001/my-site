@@ -8,3 +8,65 @@
     margin: 0;
     box-sizing: inherit;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #222;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1.5rem 2rem;
+    background: #1e2a44;
+    color: #fff;
+}
+
+.site-title {
+    font-family: 'Sixtyfour Convergence', monospace;
+    font-size: 1.5rem;
+}
+
+.site-nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.site-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.site-nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.section {
+    margin-bottom: 2rem;
+}
+
+.section h2 {
+    margin-bottom: 0.75rem;
+    color: #1e2a44;
+}
+
+.section ul {
+    padding-left: 1.5rem;
+}
+
+.site-footer {
+    padding: 1.5rem 2rem;
+    background: #1e2a44;
+    color: #fff;
+    text-align: center;
+}
